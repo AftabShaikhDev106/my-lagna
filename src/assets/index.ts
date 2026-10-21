@@ -11,3 +11,5 @@ export const feedbackIllustrationAsset = require('./feedback-illustration.jpg');
 export const languageIllustrationAsset = require('./language-illustration.jpg');
 export const supportQuestionAsset = require('./support-question.jpg');
 export const verificationShieldAsset = require('./verification-shield.jpg');
+export const termsDocumentAsset = require('./terms-document.jpg');
+export const privacyShieldMattersAsset = require('./privacy-shield-matters.jpg');

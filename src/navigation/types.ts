@@ -34,6 +34,9 @@ export type AppStackParamList = {
   Notifications: undefined;
   ProfileVerification: undefined;
   AboutMyLagna: undefined;
+  TermsOfUse: undefined;
+  PrivacyPolicy: undefined;
+  BlockedUsers: undefined;
 };
 
 export type RootStackParamList = {

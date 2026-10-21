@@ -148,6 +148,42 @@ export const AboutMyLagnaScreen: React.FC<Props> = ({ navigation }) => {
 
             <View style={styles.menuDivider} />
 
+            {/* Terms of Use */}
+            <TouchableOpacity
+              style={styles.menuRow}
+              onPress={() => navigation.navigate('TermsOfUse')}
+              activeOpacity={0.7}
+            >
+              <View style={styles.menuIconBox}>
+                <FileCode size={16} color="#E05638" />
+              </View>
+              <View style={styles.menuTextCol}>
+                <Text style={styles.menuTitle}>Terms of Use</Text>
+                <Text style={styles.menuSubtitle}>Read our member agreement</Text>
+              </View>
+              <ChevronRight size={16} color="#A0A0A0" />
+            </TouchableOpacity>
+
+            <View style={styles.menuDivider} />
+
+            {/* Privacy Policy */}
+            <TouchableOpacity
+              style={styles.menuRow}
+              onPress={() => navigation.navigate('PrivacyPolicy')}
+              activeOpacity={0.7}
+            >
+              <View style={styles.menuIconBox}>
+                <FileCode size={16} color="#E05638" />
+              </View>
+              <View style={styles.menuTextCol}>
+                <Text style={styles.menuTitle}>Privacy Policy</Text>
+                <Text style={styles.menuSubtitle}>How we protect your data</Text>
+              </View>
+              <ChevronRight size={16} color="#A0A0A0" />
+            </TouchableOpacity>
+
+            <View style={styles.menuDivider} />
+
             {/* Rate My Lagna */}
             <TouchableOpacity
               style={styles.menuRow}

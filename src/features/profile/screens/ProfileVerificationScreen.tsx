@@ -33,7 +33,7 @@ import { fontFamilies } from '../../../theme/typography';
 type Props = NativeStackScreenProps<AppStackParamList, 'ProfileVerification'>;
 
 export const ProfileVerificationScreen: React.FC<Props> = ({ navigation }) => {
-  const [phoneVerified, setPhoneVerified] = useState(true);
+  const [phoneVerified] = useState(true);
   const [idVerified, setIdVerified] = useState(false);
   const [photoVerified, setPhotoVerified] = useState(false);
 

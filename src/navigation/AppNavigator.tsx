@@ -13,6 +13,9 @@ import { NotificationSettingsScreen } from '../features/settings/screens/Notific
 import { NotificationsScreen } from '../features/settings/screens/NotificationsScreen';
 import { ProfileVerificationScreen } from '../features/profile/screens/ProfileVerificationScreen';
 import { AboutMyLagnaScreen } from '../features/settings/screens/AboutMyLagnaScreen';
+import { TermsOfUseScreen } from '../features/settings/screens/TermsOfUseScreen';
+import { PrivacyPolicyScreen } from '../features/settings/screens/PrivacyPolicyScreen';
+import { BlockedUsersScreen } from '../features/settings/screens/BlockedUsersScreen';
 import { PremiumScreen } from '../features/premium/screens/PremiumScreen';
 import { HelpSupportScreen } from '../features/support/screens/HelpSupportScreen';
 import { ReportProblemScreen } from '../features/support/screens/ReportProblemScreen';
@@ -34,6 +37,9 @@ export const AppNavigator: React.FC = () => {
       <Stack.Screen name="NotificationSettings" component={NotificationSettingsScreen} />
       <Stack.Screen name="Notifications" component={NotificationsScreen} />
       <Stack.Screen name="AboutMyLagna" component={AboutMyLagnaScreen} />
+      <Stack.Screen name="TermsOfUse" component={TermsOfUseScreen} />
+      <Stack.Screen name="PrivacyPolicy" component={PrivacyPolicyScreen} />
+      <Stack.Screen name="BlockedUsers" component={BlockedUsersScreen} />
       <Stack.Screen name="Premium" component={PremiumScreen} />
       <Stack.Screen name="HelpSupport" component={HelpSupportScreen} />
       <Stack.Screen name="ReportProblem" component={ReportProblemScreen} />
