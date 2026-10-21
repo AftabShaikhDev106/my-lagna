@@ -320,9 +320,7 @@ export const PrivacySecurityScreen: React.FC<Props> = ({ navigation }) => {
             {/* Blocked users */}
             <TouchableOpacity
               style={styles.itemRow}
-              onPress={() => {
-                Alert.alert('Blocked Users', 'You have 12 blocked users. Blocked contacts cannot see your profile or send messages.');
-              }}
+              onPress={() => navigation.navigate('BlockedUsers')}
               activeOpacity={0.7}
             >
               <View style={styles.itemIconBox}>
