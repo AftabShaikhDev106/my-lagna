@@ -1,0 +1,13 @@
+export const logoAsset = require('./logo.png');
+export const splashFortAsset = require('./fort-image.png');
+export const welcomeFortAsset = require('./fort-image-welcome.png');
+export const loginFortAsset = require('./fort-image-login.png');
+export const couple1Asset = require('./couple-images/couple-1.png');
+export const couple2Asset = require('./couple-images/couple-2.png');
+export const couple3Asset = require('./couple-images/couple-3.png');
+export const homeBottomPosterAsset = require('./home-bottom-poster.png');
+export const premiumCrownAsset = require('./premium-crown.jpg');
+export const feedbackIllustrationAsset = require('./feedback-illustration.jpg');
+export const languageIllustrationAsset = require('./language-illustration.jpg');
+export const supportQuestionAsset = require('./support-question.jpg');
+export const verificationShieldAsset = require('./verification-shield.jpg');
